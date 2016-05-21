@@ -1,14 +1,8 @@
-# Udacity_Project_02
-It is based on Popular Movies Stage 2.
+# Popular-Movies-2-Grab-Your-Popcorn
 
-This android app has features of :
-  i.    Choosing Categories of Movies(Top Rated or Popular)
-  ii.   Saving Favorite movies into Database.
-  iii.  Share the Trailer of Movie using ShareIntent.
-  iv.   Watch Trailer of Favorite Movie.
-  v.    Master Detail Flow (suitable for Tablet UI)
-  
-  
-  Need to add API_KEY in gradle.properties file for build.gradle
-  
+>Users can view and play trailers ( either in the youtube app or a web browser).
+>Users can read reviews of a selected movie.
+Allows users to mark a movie as a favorite in the details view by tapping a button(star). This movies collection not require an API request.
+This app features a complete tablet expericne implemted using Two Pane layout.
+Need to add API Key in MainActivity.java class
   
