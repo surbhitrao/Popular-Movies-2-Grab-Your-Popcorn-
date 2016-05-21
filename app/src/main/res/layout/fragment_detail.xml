@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="#fefffe"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#050000">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="210dp"
+            android:layout_height="114dp"
+            android:layout_gravity="right|top"
+
+            android:padding="10dp"
+            android:textColor="#050000"
+            android:textSize="15dp"
+            android:theme="@style/Base.V23.Theme.AppCompat.Light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="Read Review"
+            android:id="@+id/button2"
+            android:layout_gravity="left|bottom"
+            android:background="#07000000"
+            android:textColor="#fffafa"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:text="New Text"
+            android:id="@+id/movie_overview"
+            android:layout_gravity="left|bottom"
+            android:background="#07000000"
+            android:textColor="#f6f1f1"
+            android:textSize="15dp"
+            android:theme="@style/Base.V23.Theme.AppCompat.Light"
+            android:elegantTextHeight="false"
+            android:layout_marginTop="515dp"
+            android:layout_marginBottom="200dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:text="Watch Trailer"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="#07000000"
+            android:textColor="#f4e9e9"
+
+            android:layout_marginBottom="102dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/movie_poster"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:scaleType="fitXY"
+            android:paddingTop="5dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_marginLeft="315dp"
+            android:id="@+id/favbtn"
+            android:layout_marginTop="450dp"
+            android:background="#e01879"
+            android:src="@mipmap/dislike"
+            android:layout_gravity="left|top" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:id="@+id/movie_release"
+            android:text="--"
+            android:layout_marginTop="420dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#eee4e4" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/movie_vote_average"
+            android:text="--"
+            android:textSize="15dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="315dp"
+            android:textColor="#eee4e4" />
+
+
+    </FrameLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
