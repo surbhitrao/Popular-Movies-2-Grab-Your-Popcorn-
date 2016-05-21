@@ -13,7 +13,7 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity implements MainActivityFragment.Callbacks {
 
-   public static String API="06e4f6f996852dc1290dbc8256b0565b";
+   public static String API=""; //ADD YOUR API KEY HERE
 
     /**
      * Whether or not the activity is in two-pane mode, i.e. running on a tablet
