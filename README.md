@@ -7,7 +7,6 @@ The app retains its previous state which has been implemented using Parcebles an
 This app features a complete tablet expericne implemted using Two Pane layout.
 
 Need to add API Key in MainActivity.java class
-
-
+![ScreenShot](https://raw.github.com/surbhitrao/Popular-Movies-2-Grab-Your-Popcorn-/master//app/src/main/res/drawable/screener_20160522(03-09-42).png)
 
   
