@@ -1,6 +1,6 @@
 # Popular-Movies-2-Grab-Your-Popcorn
 
-Users can view and play trailers ( either in the youtube app or a web browser).
+Users can view and play trailers.
 Users can read reviews of a selected movie.
 Allows users to mark a movie as a favorite in the details view by tapping a button(star). The favorite movies collection does not requires an API request.It is maintained using a SQLite Database.
 The app retains its previous state which has been implemented using Parcebles and SavedInstance
